@@ -4,13 +4,15 @@
     font-family: "Bahnschrift", serif;
     color: white;
     font-size: 3rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 .block-images {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
 }
 
 .images {
@@ -97,4 +99,23 @@
 .future p {
     font-family: "Iceberg", serif;
     background: rgba(64, 89, 164, 0.74);
+}
+.block-rules{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rules{
+    width: 30rem;
+}
+.rules p{
+    background-color: white;
+    font-family: "Luckiest Guy", serif;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.rules p span{
+    color: #3498db;
+    cursor: pointer;
 }

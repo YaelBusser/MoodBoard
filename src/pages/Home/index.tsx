@@ -4,8 +4,19 @@ import {useNavigate} from "react-router-dom";
 
 const Home = () => {
     const navigate = useNavigate();
+    const openRules = () => {
+        window.open("/ressources/rules.pdf");
+    }
     return (
         <div>
+            <div className={"block-rules"}>
+                <div className={"rules"}>
+                    <h2 className={"title-home"}>Rules</h2>
+                    <p>click <span onClick={openRules}>here</span> <br/>
+                        to see the rules of the MoodCraft board game
+                    </p>
+                </div>
+            </div>
             <h2 className={"title-home"}>Themes moodboard</h2>
             <div className={"block-images"}>
                 <div className={"images"}>
