@@ -7,6 +7,8 @@ const Home = () => {
     const openRules = () => {
         window.open("/ressources/rules.pdf");
     }
+    console.log("ok");
+
     return (
         <div>
             <div className={"block-rules"}>
