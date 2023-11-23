@@ -1,0 +1,100 @@
+.title-home{
+    margin-top: 10rem!important;
+    text-align: center;
+    font-family: "Bahnschrift", serif;
+    color: white;
+    font-size: 3rem;
+}
+.block-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.images {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    min-height: 15rem;
+    object-fit: cover;
+    border-radius: 10px!important;
+    transition: all 0.2s ease-in-out;
+}
+
+.block-image {
+    width: 30rem;
+    height: 40rem;
+    position: relative;
+    transition: all 0.2s ease-in-out 0.1s;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.block-image:hover img{
+    transform: scale(1.3);
+    filter: blur(10px);
+    /*margin-bottom: 1.5rem;*/
+    /*margin-top: 1.5rem;*/
+    /*width: 80%;*/
+    /*transition: all 0.2s ease-in-out 0.3s;*/
+}
+
+.block-image-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0);
+}
+.block-image:hover .block-image-text{
+    opacity: 1;
+    transform: scale(1);
+}
+.block-image-text p {
+    color: white;
+    z-index: 5;
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.japan {
+    background-color: transparent!important;
+}
+.japan p {
+    font-family: "Macondo", serif;
+    background: rgba(71, 24, 22, 0.90);
+}
+
+.street p {
+    font-family: "Street", serif;
+    background: rgba(122, 135, 151, 0.73);
+}
+
+.luxe p {
+    font-family: "IM FELL French Canon SC", serif;
+    background: rgba(208, 199, 190, 0.72);
+}
+
+.future p {
+    font-family: "Iceberg", serif;
+    background: rgba(64, 89, 164, 0.74);
+}

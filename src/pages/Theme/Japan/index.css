@@ -1,0 +1,17 @@
+.top-page-japan{
+    background: rgba(71, 24, 22, 0.50);
+    font-family: "Macondo", serif;
+}
+.block-image-text{
+
+}
+.top-page-street{
+    background: rgba(122, 135, 151, 0.73);
+    font-family: "Street", serif;
+}.top-page-luxe{
+    background: rgba(208, 199, 190, 0.72);
+    font-family: "IM FELL French Canon SC", serif;
+}.top-page-future{
+    background: rgba(64, 89, 164, 0.5);
+    font-family: "Iceberg", serif;
+}

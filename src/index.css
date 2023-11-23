@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Street";
+    src: url("/fonts/Bombing.ttf") format("truetype");
+}
+
+.theme{
+}
+.top-page{
+    width: 100%;
+    height: calc(100vh - 8rem);
+    max-height: calc(100vh - 8rem);
+    position: relative;
+    outline: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+.top-page img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+.top-page-text{
+    width: 50%;
+    height: calc(100vh - 8rem);
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-page-text p{
+    background-color: transparent;
+    text-align: center;
+    font-size: 4rem;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+}
