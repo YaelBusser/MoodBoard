@@ -8,9 +8,13 @@ const Luxe = () => {
                 <div className={"top-page-text"}>
                     <p>Luxury</p>
                 </div>
+                <div className={"scroll-down"}>
+                    <ScrollDown/>
+                </div>
             </div>
-            <div className={"scroll-down"}>
-                <ScrollDown/>
+            <div className={"block-moodboard"}>
+                <h2 className={"moodboard-h2"}>Examples of moodboard</h2>
+                <img src={"/images/moodboard-luxe.png"} />
             </div>
         </div>
     )

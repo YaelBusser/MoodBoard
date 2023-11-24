@@ -8,9 +8,12 @@ const Future = () => {
                 <div className={"top-page-text"}>
                     <p>Future</p>
                 </div>
+                <div className={"scroll-down"}>
+                    <ScrollDown/>
+                </div>
             </div>
-            <div className={"scroll-down"}>
-                <ScrollDown/>
+            <div className={"block-moodboard"}>
+                {/*<img src={"/images/moodboard-luxe.png"} />*/}
             </div>
         </div>
     )

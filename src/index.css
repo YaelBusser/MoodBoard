@@ -42,3 +42,20 @@
     left: 0;
     right: 0;
 }
+.block-moodboard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.moodboard-h2{
+    color: white;
+    font-family: "IM FELL French Canon SC", serif;
+
+}
+.block-moodboard img{
+    width: 50%;
+}

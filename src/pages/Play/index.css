@@ -1,0 +1,61 @@
+.block-play{
+    width: 100%;
+    height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+.play {
+    background-color: rgba(255,255,255,1);
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play h2 {
+    color: #020d56;
+    font-family: "Bahnschrift", serif;
+    text-align: center;
+}
+
+.block-mode {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.block-mode-hide{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.mode {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mode button {
+    background-color: #020d56;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+.mode button:hover{
+    background-color: #c0c0c0;
+    color: #020d56;
+}
+.mode input[type="text"]{
+    background-color: white;
+
+}
