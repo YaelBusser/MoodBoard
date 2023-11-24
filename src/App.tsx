@@ -23,7 +23,15 @@ const App = () => {
 
         setTimeout(removeSplashScreen, 1000);
     }, []);
-
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+    useEffect(() => {
+        scrollToTop();
+    }, [location.pathname]);
     return (
         <div className={'app'}>
             <div className={'container-app'}>

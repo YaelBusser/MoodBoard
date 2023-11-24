@@ -14,7 +14,7 @@ const Japan = () => {
                 </div>
             </div>
             <div className={"block-moodboard"}>
-                {/*<img src={"/images/moodboard-luxe.png"} />*/}
+                <img src={"/images/moodboard-jap.jpg"} />
             </div>
         </div>
     )
