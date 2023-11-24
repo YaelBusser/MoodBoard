@@ -14,7 +14,7 @@ const Street = () => {
             </div>
             <div className={"block-moodboard"}>
                 <h2 className={"moodboard-h2-street"}>Examples of moodboard</h2>
-                <img src={"/images/moodboard-street.png"} />
+                <img src={"/images/moodboard-street.jpg"} />
             </div>
         </div>
     )
