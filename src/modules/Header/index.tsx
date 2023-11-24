@@ -2,7 +2,7 @@
 import "./index.css"
 import {useLocation, useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";
-import {useMediaQuery, useTheme} from "@mui/material";
+// import {useTheme} from "@mui/material";
 
 const Header = () => {
     const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Header = () => {
         };
     }, []);
     const location = useLocation();
-    const theme = useTheme();
+    // const theme = useTheme();
     // const isMobile = useMediaQuery(theme.breakpoints.down("md"));
     return (
         <div className={`header${isSrolled ? ' header-scrolled' : ''}`}>
