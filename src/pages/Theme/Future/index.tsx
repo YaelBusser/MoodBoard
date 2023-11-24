@@ -13,6 +13,7 @@ const Future = () => {
                 </div>
             </div>
             <div className={"block-moodboard"}>
+                <h2 className={"moodboard-h2-futur"}>Examples of moodboard</h2>
                 <img src={"/images/moodboard-futur.png"} />
             </div>
         </div>

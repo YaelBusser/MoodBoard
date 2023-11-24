@@ -13,7 +13,7 @@ const Luxe = () => {
                 </div>
             </div>
             <div className={"block-moodboard"}>
-                <h2 className={"moodboard-h2"}>Examples of moodboard</h2>
+                <h2 className={"moodboard-h2-luxe"}>Examples of moodboard</h2>
                 <img src={"/images/moodboard-luxe.png"} />
             </div>
         </div>

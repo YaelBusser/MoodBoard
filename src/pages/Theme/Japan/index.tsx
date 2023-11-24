@@ -14,6 +14,7 @@ const Japan = () => {
                 </div>
             </div>
             <div className={"block-moodboard"}>
+                <h2 className={"moodboard-h2-japan"}>Examples of moodboard</h2>
                 <img src={"/images/moodboard-jap.jpg"} />
             </div>
         </div>

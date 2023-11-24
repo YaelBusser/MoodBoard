@@ -13,6 +13,7 @@ const Street = () => {
                 </div>
             </div>
             <div className={"block-moodboard"}>
+                <h2 className={"moodboard-h2-street"}>Examples of moodboard</h2>
                 {/*<img src={"/images/moodboard-luxe.png"} />*/}
             </div>
         </div>

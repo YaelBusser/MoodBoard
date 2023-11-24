@@ -3,9 +3,10 @@
     src: url("/fonts/Bombing.ttf") format("truetype");
 }
 
-.theme{
+.theme {
 }
-.top-page{
+
+.top-page {
     width: 100%;
     height: calc(100vh - 8rem);
     max-height: calc(100vh - 8rem);
@@ -14,13 +15,15 @@
     display: flex;
     justify-content: center;
 }
-.top-page img{
+
+.top-page img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.2;
 }
-.top-page-text{
+
+.top-page-text {
     width: 50%;
     height: calc(100vh - 8rem);
     z-index: 10;
@@ -31,18 +34,21 @@
     justify-content: center;
     align-items: center;
 }
-.top-page-text p{
+
+.top-page-text p {
     background-color: transparent;
     text-align: center;
     font-size: 4rem;
 }
-.scroll-down{
+
+.scroll-down {
     position: absolute;
     bottom: 1rem;
     left: 0;
     right: 0;
 }
-.block-moodboard{
+
+.block-moodboard {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -51,11 +57,28 @@
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-.moodboard-h2{
+
+.moodboard-h2-luxe {
     color: white;
     font-family: "IM FELL French Canon SC", serif;
-
 }
-.block-moodboard img{
+
+.moodboard-h2-japan {
+    color: white;
+    font-family: "Macondo", serif;
+}
+
+.moodboard-h2-futur {
+    color: white;
+    font-family: "Iceberg", serif;
+}
+
+.moodboard-h2-street {
+    color: white;
+    font-family: "Street", serif;
+    font-weight: 100;
+}
+
+.block-moodboard img {
     width: 50%;
 }
