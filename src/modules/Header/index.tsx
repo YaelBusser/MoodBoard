@@ -21,7 +21,7 @@ const Header = () => {
     }, []);
     const location = useLocation();
     const theme = useTheme();
-    const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+    // const isMobile = useMediaQuery(theme.breakpoints.down("md"));
     return (
         <div className={`header${isSrolled ? ' header-scrolled' : ''}`}>
             {
@@ -35,8 +35,8 @@ const Header = () => {
                     </svg>
                 )
             }
-            {
-                !isMobile && (
+            {/*{*/}
+            {/*     !isMobile && (*/}
                     <h1>
                         <span className={"mood"}>Mood</span>
                         <span className={"c"}> C</span>
@@ -45,15 +45,14 @@ const Header = () => {
                         <span className={"f"}>f</span>
                         <span className={"t"}>t</span>
                     </h1>
-
-                )
-            }
-            <button
-                onClick={() => navigate("/play")}
-                style={isMobile ? {position: "relative", right: "0"} : {}}
-            >
-                Play
-            </button>
+             {/*    )*/}
+             {/*}*/}
+            {/*<button*/}
+            {/*    onClick={() => navigate("/play")}*/}
+            {/*    style={isMobile ? {position: "relative", right: "0"} : {}}*/}
+            {/*>*/}
+            {/*    Play*/}
+            {/*</button>*/}
         </div>
     );
 }
